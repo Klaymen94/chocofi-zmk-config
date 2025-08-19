@@ -683,19 +683,19 @@
 
         num_layer {
             bindings = <
-  &trans              &kp LA(LEFT)  &kp UP_ARROW    &kp LA(RIGHT)  &kp LG(LS(Y))    &kp N1        &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &trans
-  &kp LEFT_SHIFT      &kp LEFT      &kp DOWN_ARROW  &kp RIGHT      &kp LG(Y)        &kp QUESTION  &kp LS(N4)        &kp LS(N5)        &kp LS(N6)        &trans
-  &kp LG(LEFT_SHIFT)  &trans        &trans          &trans         &trans           &kp LS(N0)    &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &trans
-                                    &trans          &trans         &trans           &trans        &mo 3             &trans
+  &trans              &kp LA(LEFT)  &kp UP_ARROW    &kp LA(RIGHT)  &kp LG(LS(Y))    &kp N1      &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &trans
+  &kp LEFT_SHIFT      &kp LEFT      &kp DOWN_ARROW  &kp RIGHT      &kp LG(Y)        &kp SLASH   &kp LS(N4)        &kp LS(N5)        &kp LS(N6)        &trans
+  &kp LG(LEFT_SHIFT)  &trans        &trans          &trans         &trans           &kp LS(N0)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &trans
+                                    &trans          &trans         &trans           &trans      &mo 3             &trans
             >;
         };
 
         sym_layer {
             bindings = <
-  &kp PERCENT  &kp EXCL   &kp AT     &kp HASH  &kp LA(R)           &kp CARET       &kp AMPS   &kp KP_MULTIPLY   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-  &trans       &kp GRAVE  &kp TILDE  &trans    &kp LS(QUESTION)    &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BSLH
-  &trans       &trans     &trans     &trans    &trans              &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE
-                          &trans     &mo 3     &trans              &trans          &trans     &trans
+  &trans  &trans  &trans  &trans         &trans               &kp CARET       &kp AMPS   &kp KP_MULTIPLY   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+  &trans  &trans  &trans  &trans         &trans               &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BSLH
+  &trans  &trans  &trans  &kp LESS_THAN  &kp DOUBLE_QUOTES    &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE
+                  &trans  &mo 3          &trans               &trans          &trans     &trans
             >;
         };
 
