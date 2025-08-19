@@ -468,7 +468,7 @@
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&mt LCTRL TAB>, <&kp ESC>;
+            bindings = <&mt LCTRL TAB>, <&kp ESC>, <&kp LG(A)>;
         };
     };
 
@@ -677,7 +677,7 @@
   &kp Q               &kp W           &kp E               &kp R                    &kp T        &kp Z                  &kp U                     &kp I                &kp O            &kp P
   &hm LEFT_COMMAND A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &shift_tap LEFT_SHIFT F  &kp G        &kp H                  &shift_tap RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &td0
   &kp Z               &kp X           &kp C               &kp V                    &kp B        &kp N                  &kp M                     &coma_semi           &dot_colon       &kp SLASH
-                                      &td1                &lt 3 BACKSPACE          &kp SPACE    &mt RIGHT_COMMAND RET  &lt 1 BACKSPACE           &mt RIGHT_ALT GRAVE
+                                      &td1                &lt 2 BACKSPACE          &kp SPACE    &mt RIGHT_COMMAND RET  &lt 1 BACKSPACE           &mt RIGHT_ALT GRAVE
             >;
         };
 
@@ -695,7 +695,7 @@
   &kp PERCENT  &kp EXCL   &kp AT     &kp HASH  &kp LA(R)    &kp CARET       &kp AMPS   &kp KP_MULTIPLY   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
   &trans       &kp GRAVE  &kp TILDE  &trans    &trans       &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BSLH
   &trans       &trans     &trans     &trans    &trans       &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE
-                          &trans     &mo 4     &trans       &trans          &trans     &trans
+                          &trans     &mo 3     &trans       &trans          &trans     &trans
             >;
         };
 
