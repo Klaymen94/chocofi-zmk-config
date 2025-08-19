@@ -28,6 +28,7 @@
             bindings = <&kp>, <&kp>;
 
             quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
         };
 
         vim_i: vim_i {
