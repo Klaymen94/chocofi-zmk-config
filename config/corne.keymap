@@ -15,7 +15,7 @@
     tapping-term-ms = <200>;
 };
 
-&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS LSHIFT EQUAL SPACE>; };
+&caps_word { continue-list = <UNDERSCORE BACKSPACE DELETE MINUS LSHIFT EQUAL SPACE KP_SLASH SLASH>; };
 
 / {
     chosen { zmk,matrix_transform = &five_column_transform; };
