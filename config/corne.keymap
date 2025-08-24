@@ -470,6 +470,8 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             bindings = <&kp LEFT_GUI>, <&kp ESC>, <&kp LG(A)>;
+
+            tapping-term-ms = <50>;
         };
 
         td2: tap_dance_2 {
