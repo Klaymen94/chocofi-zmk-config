@@ -471,6 +471,12 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_GUI>, <&kp ESC>, <&kp LG(A)>;
         };
+
+        td2: tap_dance_2 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL>, <&kp LS(EQUAL)>;
+        };
     };
 
     macros {
@@ -675,10 +681,10 @@
         default_layer {
             label = "DEF";
             bindings = <
-  &kp Q  &kp W           &kp E               &kp R             &kp T        &kp Y                  &kp U              &kp I                &kp O            &kp P
-  &kp A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G        &kp H                  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &td0
-  &kp Z  &kp X           &kp C               &kp V             &kp B        &kp N                  &kp M              &coma_semi           &dot_colon       &kp SLASH
-                         &td1                &lt 1 BACKSPACE   &kp SPACE    &mt RIGHT_COMMAND RET  &lt 2 BACKSPACE    &kp EQUAL
+  &kp Q           &kp W           &kp E               &kp R             &kp T        &kp Y                  &kp U              &kp I                &kp O            &kp P
+  &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G        &kp H                  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &td0
+  &kp Z           &kp X           &kp C               &kp V             &kp B        &kp N                  &kp M              &coma_semi           &dot_colon       &kp SLASH
+                                  &td1                &lt 1 BACKSPACE   &kp SPACE    &mt RIGHT_COMMAND RET  &lt 2 BACKSPACE    &td2
             >;
         };
 
