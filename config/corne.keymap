@@ -108,7 +108,7 @@
   &trans              &kp LA(LEFT)  &kp UP_ARROW    &kp LA(RIGHT)  &kp LG(LS(Y))    &kp N1     &kp N7  &kp N8        &kp N9        &trans
   &kp LEFT_SHIFT      &kp LEFT      &kp DOWN_ARROW  &kp RIGHT      &kp LG(Y)        &kp SLASH  &kp N4  &kp N5        &kp N6        &trans
   &kp LG(LEFT_SHIFT)  &trans        &trans          &trans         &trans           &kp N0     &kp N1  &kp NUMBER_2  &kp NUMBER_3  &trans
-                                    &trans          &trans         &trans           &trans     &mo 3   &trans
+                                    &trans          &trans         &trans           &trans     &mo 3   &tog 4
             >;
         };
 
@@ -127,6 +127,15 @@
   &trans        &trans        &kp K_PREV    &kp C_NEXT  &kp C_PLAY_PAUSE    &kp C_MUTE   &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &kp F11
   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_NXT  &bt BT_CLR          &trans       &trans        &trans           &trans  &kp F12
                               &sys_reset    &trans      &bootloader         &bootloader  &trans        &sys_reset
+            >;
+        };
+
+        game_layer {
+            bindings = <
+  &none           &none  &none       &none      &none        &none  &none  &kp I   &none  &none
+  &kp LEFT_SHIFT  &kp A  &kp W       &kp D      &kp F        &kp H  &none  &none   &none  &none
+  &none           &none  &kp S       &none      &none        &none  &none  &none   &none  &none
+                         &kp ESCAPE  &kp SPACE  &kp SPACE    &none  &none  &tog 4
             >;
         };
     };
