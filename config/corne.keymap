@@ -106,8 +106,8 @@
 
         num_layer {
             bindings = <
-  &kp LEFT_GUI        &kp LA(LEFT)  &kp UP_ARROW    &kp LA(RIGHT)  &kp LG(LS(Y))    &kp N1     &kp N7              &kp N8        &kp N9                 &trans
-  &kp LEFT_SHIFT      &kp LEFT      &kp DOWN_ARROW  &kp RIGHT      &kp LG(Y)        &kp SLASH  &hm RIGHT_SHIFT N4  &hm LCTRL N5  &hm LEFT_ALT NUMBER_6  &trans
+  &kp LEFT_SHIFT      &kp LA(LEFT)  &kp UP_ARROW    &kp LA(RIGHT)  &kp LG(LS(Y))    &kp N1     &kp N7              &kp N8        &kp N9                 &trans
+  &kp LEFT_GUI        &kp LEFT      &kp DOWN_ARROW  &kp RIGHT      &kp LG(Y)        &kp SLASH  &hm RIGHT_SHIFT N4  &hm LCTRL N5  &hm LEFT_ALT NUMBER_6  &trans
   &kp LG(LEFT_SHIFT)  &trans        &trans          &trans         &trans           &kp N0     &kp N1              &kp NUMBER_2  &kp NUMBER_3           &trans
                                     &trans          &trans         &trans           &trans     &mo 3               &tog 4
             >;
