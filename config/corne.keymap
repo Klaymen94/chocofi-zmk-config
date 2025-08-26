@@ -72,22 +72,26 @@
         toggle_shift {
             bindings = <&caps_word>;
             key-positions = <16 13>;
+            layers = <0 2 1 3>;
         };
 
         esc-combo {
             bindings = <&kp ESCAPE>;
             key-positions = <2 3>;
             timeout-ms = <30>;
+            layers = <0 2 1 3>;
         };
 
         cmd_space {
             bindings = <&kp LG(SPACE)>;
             key-positions = <12 13>;
+            layers = <0 1 3 2>;
         };
 
         cmb_tab {
             bindings = <&kp TAB>;
             key-positions = <1 2>;
+            layers = <0 2 1 3>;
         };
     };
 
@@ -106,9 +110,9 @@
 
         num_layer {
             bindings = <
-  &kp LEFT_SHIFT      &kp LA(LEFT)  &kp UP_ARROW    &kp LA(RIGHT)  &kp LG(LS(Y))    &kp N1     &kp N7              &kp N8        &kp N9                 &trans
-  &kp LEFT_GUI        &kp LEFT      &kp DOWN_ARROW  &kp RIGHT      &kp LG(Y)        &kp SLASH  &hm RIGHT_SHIFT N4  &hm LCTRL N5  &hm LEFT_ALT NUMBER_6  &trans
-  &kp LG(LEFT_SHIFT)  &trans        &trans          &trans         &trans           &kp N0     &kp N1              &kp NUMBER_2  &kp NUMBER_3           &trans
+  &none               &kp LA(LEFT)  &kp UP_ARROW    &kp LA(RIGHT)  &kp LG(LS(Y))    &kp N1     &kp N7              &kp N8        &kp N9                 &trans
+  &kp LEFT_SHIFT      &kp LEFT      &kp DOWN_ARROW  &kp RIGHT      &kp LG(Y)        &kp SLASH  &hm RIGHT_SHIFT N4  &hm LCTRL N5  &hm LEFT_ALT NUMBER_6  &trans
+  &kp LG(LEFT_SHIFT)  &trans        &kp LEFT_GUI    &trans         &none            &kp N0     &kp N1              &kp NUMBER_2  &kp NUMBER_3           &trans
                                     &trans          &trans         &trans           &trans     &mo 3               &tog 4
             >;
         };
