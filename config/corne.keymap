@@ -62,7 +62,9 @@
         td2: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&kp EQUAL>, <&kp PLUS>;
+            bindings = <&kp EQUAL>, <&caron>;
+
+            tapping-term-ms = <250>;
         };
     };
 
@@ -92,6 +94,15 @@
             bindings = <&kp TAB>;
             key-positions = <1 2>;
             layers = <0 2 1 3>;
+        };
+    };
+
+    macros {
+        caron: caron {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT &kp KP_EQUAL>;
+            label = "CARON";
         };
     };
 
