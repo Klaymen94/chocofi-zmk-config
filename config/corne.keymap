@@ -95,6 +95,11 @@
             key-positions = <1 2>;
             layers = <0 2 1 3>;
         };
+
+        prehlasovane_a {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
