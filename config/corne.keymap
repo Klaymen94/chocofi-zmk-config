@@ -154,7 +154,7 @@
             bindings = <
   &kp K           &kp LA(LEFT)       &mt LS(UP_ARROW) UP_ARROW  &kp LA(RIGHT)        &kp LG(LS(Y))    &kp N1     &kp N7              &kp N8        &kp N9                 &none
   &kp LEFT_SHIFT  &mt LS(LEFT) LEFT  &mt LS(DOWN_ARROW) DOWN    &mt LS(RIGHT) RIGHT  &kp LG(Y)        &kp SLASH  &hm RIGHT_SHIFT N4  &hm LCTRL N5  &hm LEFT_ALT NUMBER_6  &none
-  &none           &none              &kp LEFT_GUI               &kp LG(LC(SPACE))    &kp LG(LS(E))    &kp N0     &kp N1              &kp NUMBER_2  &kp NUMBER_3           &none
+  &trans          &none              &kp LEFT_GUI               &kp LG(LC(SPACE))    &kp LG(LS(E))    &kp N0     &kp N1              &kp NUMBER_2  &kp NUMBER_3           &none
                                      &trans                     &trans               &trans           &trans     &mo 3               &tog 4
             >;
         };
