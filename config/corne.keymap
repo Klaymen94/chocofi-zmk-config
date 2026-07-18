@@ -99,6 +99,7 @@
         Alfred {
             bindings = <&kp LG(LS(SPACE))>;
             key-positions = <11 12>;
+            layers = <0 1 2 3>;
         };
     };
 
