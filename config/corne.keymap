@@ -162,9 +162,9 @@
 
         sym_layer {
             bindings = <
-  &none            &none  &none   &none          &none                &kp LS(LEFT_BRACE)    &kp RIGHT_BRACE        &kp PIPE  &none  &none
-  &prehlasovane_a  &none  &none   &none          &none                &kp LA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &none     &none  &none
-  &none            &none  &none   &kp LESS_THAN  &kp DOUBLE_QUOTES    &none                 &none                  &none     &none  &none
+  &none            &none  &none   &none          &none                &kp LS(LEFT_BRACE)    &kp RIGHT_BRACE        &kp PIPE   &none  &none
+  &prehlasovane_a  &none  &none   &none          &none                &kp LA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &kp UNDER  &none  &none
+  &none            &none  &none   &kp LESS_THAN  &kp DOUBLE_QUOTES    &none                 &none                  &none      &none  &none
                           &trans  &mo 3          &trans               &trans                &trans                 &trans
             >;
         };
